@@ -1,0 +1,260 @@
+14:29:14.159 [S1AP] -  Connecting to 127.0.1.100:36412
+14:29:14.159 [S1AP] -  Connect error (code=111)
+14:29:14.159 [S1AP] -  Disconnected
+
+
+
+# handover error (wrong x2_peers)
+
+16:08:40.274 [X2AP] -  Connecting to 10.0.12.145:36422
+16:13:22.958 [X2AP] -  Connect error (code=110)
+16:13:22.958 [X2AP] -  Closing connection to 10.0.12.135:48253
+16:13:27.615 [X2AP] -  Connecting to 10.0.12.135:48253
+16:14:22.350 [X2AP] -  Connect error (code=110)
+16:14:22.350 [X2AP] -  Closing connection to 10.0.12.145:36422
+16:14:32.298 [X2AP] -  Connecting to 10.0.12.145:36422
+16:19:09.070 [X2AP] -  Connect error (code=110)
+16:19:09.070 [X2AP] -  Closing connection to 10.0.12.135:48253
+16:19:23.023 [X2AP] -  Connecting to 10.0.12.135:48253
+16:20:12.558 [X2AP] -  Connect error (code=110)
+16:20:12.558 [X2AP] -  Closing connection to 10.0.12.145:36422
+16:20:26.929 [X2AP] -  Connecting to 10.0.12.145:36422
+
+# authentication error
+
+13:33:08.018 [NAS] UL 004e EMM: Authentication failure
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x0 (Plain NAS message, not security protected)
+        Message type = 0x5c (Authentication failure)
+        EMM cause = 0x15 (Synch failure)
+        Authentication failure parameter:
+          Length = 14
+          Data = 68 2c 6c 2c e8 ec 04 63 9e 24 86 57 9b 05
+
+
+
+##############################################################
+### ??? ###
+
+13:31:37.517 [RRC] -  004a RRC connection reestablishment request: No matching UE
+13:31:37.517 [RRC] DL 004a CCCH: RRC Connection Reestablishment Reject
+        {
+          message c1: rrcConnectionReestablishmentReject: {
+            criticalExtensions rrcConnectionReestablishmentReject-r8: {
+            }
+          }
+        }
+
+
+13:40:04.123 [NAS] DL 005e EMM: Attach reject
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x2 (Integrity protected and ciphered)
+        Auth code = 0x08e1cdbd
+        Sequence number = 0x17
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x0 (Plain NAS message, not security protected)
+        Message type = 0x44 (Attach reject)
+        EMM cause = 0x13 (ESM failure)
+        ESM message container:
+          Protocol discriminator = 0x2 (EPS Session Management)
+          EPS bearer identity = 0
+          Procedure transaction identity = 1
+          Message type = 0xd1 (PDN connectivity reject)
+          ESM cause = 0x35 (ESM information not received)
+
+14:29:14.159 [S1AP] -  Disconnected
+14:29:14.159 [S1AP] -  Connecting to 127.0.1.100:36412
+14:29:14.159 [S1AP] -  Connect error (code=111)
+14:29:14.159 [S1AP] -  Disconnected
+
+
+
+# handover error (wrong x2_peers)
+
+16:08:40.274 [X2AP] -  Connecting to 10.0.12.145:36422
+16:13:22.958 [X2AP] -  Connect error (code=110)
+16:13:22.958 [X2AP] -  Closing connection to 10.0.12.135:48253
+16:13:27.615 [X2AP] -  Connecting to 10.0.12.135:48253
+16:14:22.350 [X2AP] -  Connect error (code=110)
+16:14:22.350 [X2AP] -  Closing connection to 10.0.12.145:36422
+16:14:32.298 [X2AP] -  Connecting to 10.0.12.145:36422
+16:19:09.070 [X2AP] -  Connect error (code=110)
+16:19:09.070 [X2AP] -  Closing connection to 10.0.12.135:48253
+16:19:23.023 [X2AP] -  Connecting to 10.0.12.135:48253
+16:20:12.558 [X2AP] -  Connect error (code=110)
+16:20:12.558 [X2AP] -  Closing connection to 10.0.12.145:36422
+16:20:26.929 [X2AP] -  Connecting to 10.0.12.145:36422
+
+# authentication error
+
+13:33:08.018 [NAS] UL 004e EMM: Authentication failure
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x0 (Plain NAS message, not security protected)
+        Message type = 0x5c (Authentication failure)
+        EMM cause = 0x15 (Synch failure)
+        Authentication failure parameter:
+          Length = 14
+          Data = 68 2c 6c 2c e8 ec 04 63 9e 24 86 57 9b 05
+
+
+
+##############################################################
+### ??? ###
+
+13:31:37.517 [RRC] -  004a RRC connection reestablishment request: No matching UE
+13:31:37.517 [RRC] DL 004a CCCH: RRC Connection Reestablishment Reject
+        {
+          message c1: rrcConnectionReestablishmentReject: {
+            criticalExtensions rrcConnectionReestablishmentReject-r8: {
+            }
+          }
+        }
+
+
+13:40:04.123 [NAS] DL 005e EMM: Attach reject
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x2 (Integrity protected and ciphered)
+        Auth code = 0x08e1cdbd
+        Sequence number = 0x17
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x0 (Plain NAS message, not security protected)
+        Message type = 0x44 (Attach reject)
+        EMM cause = 0x13 (ESM failure)
+        ESM message container:
+          Protocol discriminator = 0x2 (EPS Session Management)
+          EPS bearer identity = 0
+          Procedure transaction identity = 1
+          Message type = 0xd1 (PDN connectivity reject)
+          ESM cause = 0x35 (ESM information not received)
+
+14:29:14.159 [S1AP] -  Disconnected
+14:29:14.159 [S1AP] -  Connecting to 127.0.1.100:36412
+14:29:14.159 [S1AP] -  Connect error (code=111)
+14:29:14.159 [S1AP] -  Disconnected
+
+
+
+# handover error (wrong x2_peers)
+
+16:08:40.274 [X2AP] -  Connecting to 10.0.12.145:36422
+16:13:22.958 [X2AP] -  Connect error (code=110)
+16:13:22.958 [X2AP] -  Closing connection to 10.0.12.135:48253
+16:13:27.615 [X2AP] -  Connecting to 10.0.12.135:48253
+16:14:22.350 [X2AP] -  Connect error (code=110)
+16:14:22.350 [X2AP] -  Closing connection to 10.0.12.145:36422
+16:14:32.298 [X2AP] -  Connecting to 10.0.12.145:36422
+16:19:09.070 [X2AP] -  Connect error (code=110)
+16:19:09.070 [X2AP] -  Closing connection to 10.0.12.135:48253
+16:19:23.023 [X2AP] -  Connecting to 10.0.12.135:48253
+16:20:12.558 [X2AP] -  Connect error (code=110)
+16:20:12.558 [X2AP] -  Closing connection to 10.0.12.145:36422
+16:20:26.929 [X2AP] -  Connecting to 10.0.12.145:36422
+
+# authentication error
+
+13:33:08.018 [NAS] UL 004e EMM: Authentication failure
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x0 (Plain NAS message, not security protected)
+        Message type = 0x5c (Authentication failure)
+        EMM cause = 0x15 (Synch failure)
+        Authentication failure parameter:
+          Length = 14
+          Data = 68 2c 6c 2c e8 ec 04 63 9e 24 86 57 9b 05
+
+
+
+##############################################################
+### ??? ###
+
+13:31:37.517 [RRC] -  004a RRC connection reestablishment request: No matching UE
+13:31:37.517 [RRC] DL 004a CCCH: RRC Connection Reestablishment Reject
+        {
+          message c1: rrcConnectionReestablishmentReject: {
+            criticalExtensions rrcConnectionReestablishmentReject-r8: {
+            }
+          }
+        }
+
+
+13:40:04.123 [NAS] DL 005e EMM: Attach reject
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x2 (Integrity protected and ciphered)
+        Auth code = 0x08e1cdbd
+        Sequence number = 0x17
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x0 (Plain NAS message, not security protected)
+        Message type = 0x44 (Attach reject)
+        EMM cause = 0x13 (ESM failure)
+        ESM message container:
+          Protocol discriminator = 0x2 (EPS Session Management)
+          EPS bearer identity = 0
+          Procedure transaction identity = 1
+          Message type = 0xd1 (PDN connectivity reject)
+          ESM cause = 0x35 (ESM information not received)
+
+14:29:14.159 [S1AP] -  Disconnected
+14:29:14.159 [S1AP] -  Connecting to 127.0.1.100:36412
+14:29:14.159 [S1AP] -  Connect error (code=111)
+14:29:14.159 [S1AP] -  Disconnected
+
+
+
+# handover error (wrong x2_peers)
+
+16:08:40.274 [X2AP] -  Connecting to 10.0.12.145:36422
+16:13:22.958 [X2AP] -  Connect error (code=110)
+16:13:22.958 [X2AP] -  Closing connection to 10.0.12.135:48253
+16:13:27.615 [X2AP] -  Connecting to 10.0.12.135:48253
+16:14:22.350 [X2AP] -  Connect error (code=110)
+16:14:22.350 [X2AP] -  Closing connection to 10.0.12.145:36422
+16:14:32.298 [X2AP] -  Connecting to 10.0.12.145:36422
+16:19:09.070 [X2AP] -  Connect error (code=110)
+16:19:09.070 [X2AP] -  Closing connection to 10.0.12.135:48253
+16:19:23.023 [X2AP] -  Connecting to 10.0.12.135:48253
+16:20:12.558 [X2AP] -  Connect error (code=110)
+16:20:12.558 [X2AP] -  Closing connection to 10.0.12.145:36422
+16:20:26.929 [X2AP] -  Connecting to 10.0.12.145:36422
+
+# authentication error
+
+13:33:08.018 [NAS] UL 004e EMM: Authentication failure
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x0 (Plain NAS message, not security protected)
+        Message type = 0x5c (Authentication failure)
+        EMM cause = 0x15 (Synch failure)
+        Authentication failure parameter:
+          Length = 14
+          Data = 68 2c 6c 2c e8 ec 04 63 9e 24 86 57 9b 05
+
+
+
+##############################################################
+### ??? ###
+
+13:31:37.517 [RRC] -  004a RRC connection reestablishment request: No matching UE
+13:31:37.517 [RRC] DL 004a CCCH: RRC Connection Reestablishment Reject
+        {
+          message c1: rrcConnectionReestablishmentReject: {
+            criticalExtensions rrcConnectionReestablishmentReject-r8: {
+            }
+          }
+        }
+
+
+13:40:04.123 [NAS] DL 005e EMM: Attach reject
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x2 (Integrity protected and ciphered)
+        Auth code = 0x08e1cdbd
+        Sequence number = 0x17
+        Protocol discriminator = 0x7 (EPS Mobility Management)
+        Security header = 0x0 (Plain NAS message, not security protected)
+        Message type = 0x44 (Attach reject)
+        EMM cause = 0x13 (ESM failure)
+        ESM message container:
+          Protocol discriminator = 0x2 (EPS Session Management)
+          EPS bearer identity = 0
+          Procedure transaction identity = 1
+          Message type = 0xd1 (PDN connectivity reject)
+          ESM cause = 0x35 (ESM information not received)
+
+14:29:14.159 [S1AP] -  Disconnected
