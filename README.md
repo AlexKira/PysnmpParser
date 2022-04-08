@@ -3,7 +3,7 @@
 
 <h3>Запуск</h3>
 
-<h4>1. https://github.com/AlexKira/PysnmpParser.git</h4>
+<h4>1. git clone https://github.com/AlexKira/PysnmpParser.git</h4>
 <h4>2. cd PysnmpParser</h4>
 <h4>3. python3 -m venv venv</h4>
 <h4>4. source venv/bin/activate</h4>
